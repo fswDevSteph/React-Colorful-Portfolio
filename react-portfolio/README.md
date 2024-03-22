@@ -1,5 +1,5 @@
 # react-portfolio
-
+A single page portfolio application
 
 ## Image 
 
@@ -16,7 +16,7 @@ https://github.com/fswDevSteph/react-portfolio
 
 As I build more projects, learning new technologies, this portfolio will naturally expand in parallel
 
-## Contributers
+## Contributors
 
 N/A
 
