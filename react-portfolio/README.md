@@ -1,29 +1,8 @@
-# react-portfolio
-A single page portfolio application
+# React + Vite
 
-## Image 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+Currently, two official plugins are available:
 
-
-## A video walk through
-
-
-
-## Repo:
-https://github.com/fswDevSteph/react-portfolio
-
-## Upcoming Iterations
-
-As I build more projects, learning new technologies, this portfolio will naturally expand in parallel
-
-## Contributors
-
-N/A
-
-## Known Issues:
-
-N/A
-
-## About Developer:
-
-Stephanie Perroni is a full stack software development student with 5+ years of experience as a software tester on various projects who is passionate about expanding her knowledge and experience in the IT space. She hopes to make meaningful and positively impactful contributions in the world of software development and IT.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
