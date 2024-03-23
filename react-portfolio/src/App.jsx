@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import Message from './components/Message.jsx'
+// import Message from './components/Message.jsx'
+import Header from './components/header/header.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import './App.css'
 
@@ -10,7 +11,9 @@ function App() {
 
   return (
     <>
-    <h1>Testing</h1>
+    {
+    <Header />
+    /* <h1>Testing</h1>
     <Message />
       <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -31,7 +34,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */
+      
+      }
     </>
   )
 }
