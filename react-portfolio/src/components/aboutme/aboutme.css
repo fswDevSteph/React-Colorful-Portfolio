@@ -1,0 +1,14 @@
+#prof-img {
+    width: 80%;
+    height: 95%;
+}
+
+.about-text {
+    text-align: center;
+    justify-content: right;
+    margin: auto;
+}
+
+.about-me {
+    margin-top: 1.25em;
+}

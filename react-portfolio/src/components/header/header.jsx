@@ -1,16 +1,12 @@
-// const Header = () => {
-//     return (
-//         <div>
-//         <nav>
-//             <ul>
-//                 <li>About Me</li>
-//                 <li>Portfolio</li>
-//                 <li>Contact</li>
-//                 <li>Resume</li>
-//             </ul>
-//         </nav>
-//         </div>
-//     );
-// };
+import TopNav from "../navbar/topnav.jsx";
+import './header.css';
 
-// export default Header;
+const Header = () => {
+    return (
+        <div>
+        <TopNav />
+        </div>
+    );
+};
+
+export default Header;
