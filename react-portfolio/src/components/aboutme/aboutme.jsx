@@ -13,7 +13,9 @@ function Aboutme() {
       <Row>
         
         <Col xs={6} md={4}>
-          <Image id="prof-img" src="https://media.licdn.com/dms/image/D4E03AQES8prbXlYPlQ/profile-displayphoto-shrink_800_800/0/1710796497122?e=1716422400&v=beta&t=A0NbP9g5BJ-93ZHEJ9H29HBHV71zhx8B9-WkLWWNs3U" roundedCircle />
+          {
+            <Image id="prof-img" src="https://media.licdn.com/dms/image/D4E03AQFfQP_Ag492sA/profile-displayphoto-shrink_800_800/0/1711241424452?e=1717027200&v=beta&t=2Sn9D45P6zaYUzTwkcsmtjRWSURBbS3Jk8ncjg4m75Q" roundedCircle />
+         }
         </Col>
        <Col className="about-text">
         <h2>About </h2>
