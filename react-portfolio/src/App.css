@@ -1,15 +1,19 @@
+:root {
+  --mint: #BCE9EA;
+  --payGray: #455D6D;
+  --beaver: #A4836B;
+  --white: #fff;
+  --licorice: #1B0E03;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
-  --lightCyan: #c8dfdd;
-  --payGray: #455D6D;
-  --babyPowder: #f4f4ef;
-  --atomicTangerine: #f6b08a;
-  --bole: #80514b;
-  --white: #fff;
-  --black: #000000;
+  overflow: none;
+  color: var(--licorice);
+
 }
 
 .space {

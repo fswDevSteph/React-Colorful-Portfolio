@@ -1,6 +1,7 @@
 #prof-img {
     width: 80%;
-    height: 91;
+    height: 91%;
+
 }
 
 .about-text {
@@ -10,5 +11,5 @@
 }
 
 .about-me {
-    margin-top: 1.25rem;
+    margin-top: 1.25em;
 }
