@@ -1,22 +1,27 @@
 #prof-img {
     width: 80%;
     height: 91%;
-
 }
 
 
 .about-text {
     text-align: center;
     justify-content: right;
-    margin: auto;
+    margin: 0;
 }
 
 .about-me {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
     position: relative;
-    min-height: 20vh;
+    /* min-height: 1vh; */
+}
 
+.lessons {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    position: relative;
+    /* min-height: 1vh; */
 }
 
 /* .bottom-padding {

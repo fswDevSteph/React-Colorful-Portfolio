@@ -41,8 +41,8 @@
 
 .section-background-turq {
     background-color: var(--turq);
-    padding: 1em;
-    min-height: 90vh;
+    padding: 3em;
+    min-height: 100vh;
 
 }
 

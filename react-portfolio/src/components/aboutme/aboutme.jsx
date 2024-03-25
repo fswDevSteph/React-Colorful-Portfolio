@@ -33,6 +33,24 @@ function Aboutme() {
        </Col>
        
       </Row>
+      <Row>
+        <Col className="lessons">
+        <h2>Lessons Learned</h2>
+        <p>Some valuable takeaways from my experience as a Junior Software Developer</p>
+      <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+       </Col>
+
+        <Col xs={6} md={4}>
+          {
+            <Image id="prof-img" src="#" roundedCircle />
+         }
+        </Col>
+      </Row>
     </Container>
    
     </section>
