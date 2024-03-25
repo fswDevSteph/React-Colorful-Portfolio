@@ -14,13 +14,15 @@
 .about-me {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    position: relative;
+
 }
 
-.bottom-padding {
+/* .bottom-padding {
     padding-bottom: 7em;
 }
 
 .top-padding {
     padding-top: 7em;
 
-}
+} */

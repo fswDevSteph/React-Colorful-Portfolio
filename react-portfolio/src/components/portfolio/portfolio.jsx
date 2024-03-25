@@ -5,9 +5,9 @@ import './portfolio.css'
 function Portfolio() {
   return (
 
-<section className='section-background-turq  padding-top padding-bottom   '>
+<section className='section-background-turq  padding-top padding-bottom relative  '>
  
-    <div className='r'>
+    <div>
       
 <Row >
  

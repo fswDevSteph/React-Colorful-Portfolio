@@ -1,10 +1,9 @@
-.bottom-padding {
-    padding-bottom: 7em;
-}
+/* .bottom-padding {
+    padding-bottom: 5em;
+} */
 
 .top-padding {
-    padding-top: 7em;
-
+    padding-top: 20;
 }
 
 .relative {
@@ -25,12 +24,14 @@
     position: relative;
     display: block;
     width: calc(117% + 1.3px);
-    height: 153px;
+    min-height: 18vh;
+    margin-bottom: 0;
     transform: rotateY(180deg);
 }
 
 .custom-shape-divider-bottom-1711347418 .shape-fill {
-    fill: #009AAE;
+    fill: #ffffff;
+    min-height: 20vh;
 }
 
 .card-spacing {
@@ -40,5 +41,6 @@
 .section-background-turq {
     background-color: var(--turq);
     padding: 1em;
+    min-height: auto;
 
 }

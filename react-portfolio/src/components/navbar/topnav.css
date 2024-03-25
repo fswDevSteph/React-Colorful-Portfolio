@@ -1,14 +1,22 @@
 .myName {
     text-align: center;
     justify-content: left;
-    margin-left: 3em;
+    /* margin-left: 3em; */
 
 }
 
 .navbar-custom-color {
-    background-color: var(--turq);
-    color: (var(--white));
+    /* background-color: var(--turq); */
+    /* min-height: 15vh; */
     z-index: 1;
+
+}
+
+.relative {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* min-height: 20vh; */
 
 }
 
@@ -24,7 +32,7 @@
     color: white;
 }
 
-.custom-shape-divider-top-1711342860 {
+.custom-shape-divider-top-1711347870 {
     position: absolute;
     top: 0;
     left: 0;
@@ -33,7 +41,7 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1711342860 svg {
+.custom-shape-divider-top-1711347870 svg {
     position: relative;
     display: block;
     width: calc(117% + 1.3px);
@@ -41,6 +49,6 @@
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1711342860 .shape-fill {
+.custom-shape-divider-top-1711347870 .shape-fill {
     fill: #009AAE;
 }
