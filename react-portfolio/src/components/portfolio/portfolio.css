@@ -7,6 +7,31 @@
 
 }
 
+.relative {
+    position: relative
+}
+
+.custom-shape-divider-bottom-1711347418 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711347418 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 153px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1711347418 .shape-fill {
+    fill: #009AAE;
+}
 
 .card-spacing {
     margin: 1.75em;
