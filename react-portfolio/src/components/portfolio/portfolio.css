@@ -3,7 +3,8 @@
 } */
 
 .top-padding {
-    padding-top: 20;
+    padding-top: 10em;
+    padding-bottom: 10em;
 }
 
 .relative {
@@ -41,6 +42,38 @@
 .section-background-turq {
     background-color: var(--turq);
     padding: 1em;
-    min-height: auto;
+    min-height: 90vh;
+
+}
+
+.custom-shape-divider-top-1711386641 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711386641 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1711386641 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.space {
+    margin-top: 5em;
+}
+
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 
 }

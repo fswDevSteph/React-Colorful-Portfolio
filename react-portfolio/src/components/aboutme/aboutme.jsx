@@ -8,7 +8,7 @@ function Aboutme() {
   return (
     <section className='about-me top-padding bottom-padding'>
         
-    <Container className='about-me   bottom-padding'> 
+    <Container > 
         
       <Row>
         
