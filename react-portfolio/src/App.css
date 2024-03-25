@@ -17,8 +17,18 @@
   background-color: var(--white);
 }
 
+.white-text {
+  color: var(--white);
+
+}
+
 .space {
   margin-top: -20em;
+}
+
+.space2 {
+  margin-top: 15em;
+
 }
 
 /* .logo {

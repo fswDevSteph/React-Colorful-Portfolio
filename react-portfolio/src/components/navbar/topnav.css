@@ -52,3 +52,7 @@
 .custom-shape-divider-top-1711347870 .shape-fill {
     fill: #009AAE;
 }
+
+.menu-dropdown .dropdown-toggle {
+    color: white;
+}

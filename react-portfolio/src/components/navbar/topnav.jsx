@@ -10,13 +10,13 @@ function TopNav() {
     <section className='navbar-custom-color relative'>
     <Navbar expand="lg" className="bg-body-tertiary flex-row  ">
       <Container className='navbar-custom-color'>
-        <Navbar.Brand href="#home" className="myName navbar-custom-color">Stephanie Perroni</Navbar.Brand>
+        <Navbar.Brand href="#home" className="myName navbar-custom-color"><span className='white-text'>Stephanie Perroni</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-custom-color ">
             {/* <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link> */}
-            <NavDropdown title="Menu" id="basic-nav-dropdown" className='basic-nav-dropdown navbar-custom-color '>
+            <NavDropdown title="Menu" id="basic-nav-dropdown" className='basic-nav-dropdown menu-dropdown'>
               <NavDropdown.Item href="#action/3.1" className='navbar-custom-color'>About Me</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2" className='navbar-custom-color'>
                Portfolio

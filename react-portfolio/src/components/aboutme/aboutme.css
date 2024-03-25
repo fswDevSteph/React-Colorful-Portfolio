@@ -20,15 +20,48 @@
 .lessons {
     margin-top: 1.25em;
     margin-bottom: 1.25em;
+    padding-top: 1.25em;
     position: relative;
-    /* min-height: 1vh; */
+    max-width: 100%;
 }
 
-/* .bottom-padding {
-    padding-bottom: 7em;
+.background-color {
+    background-color: var(--amber)
 }
 
-.top-padding {
-    padding-top: 7em;
 
-} */
+ul li {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    list-style-type: none;
+    position: relative;
+}
+
+.list-background {
+    background-color: var(--white);
+    padding: 1.25em;
+}
+
+.relative {
+    position: relative;
+}
+
+.custom-shape-divider-top-1711394646 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711394646 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150vh;
+}
+
+.custom-shape-divider-top-1711394646 .shape-fill {
+    fill: #FFFFFF;
+}

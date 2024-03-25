@@ -41,7 +41,8 @@
 
 .section-background-turq {
     background-color: var(--turq);
-    padding: 3em;
+    padding: 5em;
+    /* padding keeps spacing between nav curve and about pic and about text */
     min-height: 100vh;
 
 }
@@ -74,6 +75,4 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
-
 }
