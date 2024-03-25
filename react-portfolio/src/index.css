@@ -49,7 +49,7 @@ button {
 }
 
 button:hover {
-  border-color: var(--mint);
+  border-color: var(--turq);
 }
 
 button:focus,

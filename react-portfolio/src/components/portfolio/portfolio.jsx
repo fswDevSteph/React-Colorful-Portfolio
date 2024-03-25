@@ -4,10 +4,10 @@ import './portfolio.css'
 
 function Portfolio() {
   return (
-    
-<section className='section-spacing section-background-blue'>
+
+<section className='section-background-turq top-of-section-spacing'>
     <div>
-<Row>
+<Row >
  <Col md={4}>
     {/*card1 */}
     <Card className='card-spacing' style={{ width: '18rem' }}>
@@ -120,6 +120,7 @@ function Portfolio() {
 
     </div>
     </section>
+    
   );
 }
 

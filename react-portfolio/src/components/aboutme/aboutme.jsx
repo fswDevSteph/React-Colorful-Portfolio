@@ -6,7 +6,7 @@ import './aboutme.css'
 
 function Aboutme() {
   return (
-    <section className='about-me'>
+    <section className='about-me top-of-section-spacing'>
         
     <Container>
         

@@ -4,6 +4,10 @@
 
 }
 
+.top-of-section-spacing {
+    margin-top: 6em;
+}
+
 .about-text {
     text-align: center;
     justify-content: right;

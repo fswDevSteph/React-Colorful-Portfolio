@@ -1,13 +1,13 @@
-.section-spacing {
-    margin-top: 10em;
+.top-of-section-spacing {
+    margin-top: 6em;
 }
 
 .card-spacing {
-    margin-top: 2em;
+    margin: 1.75em;
 }
 
-.section-background-blue {
-    background-color: var(--mint);
+.section-background-turq {
+    background-color: var(--turq);
     padding: 1em;
-    margin: 2em;
+
 }

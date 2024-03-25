@@ -1,7 +1,8 @@
 :root {
-  --mint: #BCE9EA;
-  --payGray: #455D6D;
-  --beaver: #A4836B;
+  --turq: #009AAE;
+  --amber: #F6BB24;
+  --khaki: #C8B58D;
+  --pinkpeach: #FB968E;
   --white: #fff;
   --licorice: #1B0E03;
 }
@@ -13,7 +14,7 @@
   text-align: center;
   overflow: none;
   color: var(--licorice);
-
+  background-color: var(--white);
 }
 
 .space {
