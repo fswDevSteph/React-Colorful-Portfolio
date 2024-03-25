@@ -2,11 +2,20 @@
     text-align: center;
     justify-content: left;
     margin-left: 3em;
+}
 
+.navbar-custom-color {
+    background-color: var(--turq) !important;
+    color: (var(--white));
 }
 
 .basic-nav-dropdown {
     text-align: center;
     justify-self: right;
     margin-left: 1100%;
+}
+
+.section-background-turq {
+    background-color: var(--turq);
+    color: white;
 }
