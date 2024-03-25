@@ -4,9 +4,6 @@
 
 }
 
-.top-of-section-spacing {
-    margin-top: 6em;
-}
 
 .about-text {
     text-align: center;
@@ -16,4 +13,14 @@
 
 .about-me {
     margin-top: 1.25em;
+    margin-bottom: 1.25em;
+}
+
+.bottom-padding {
+    padding-bottom: 7em;
+}
+
+.top-padding {
+    padding-top: 7em;
+
 }

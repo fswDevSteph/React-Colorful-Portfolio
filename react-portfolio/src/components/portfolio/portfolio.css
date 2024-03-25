@@ -1,6 +1,12 @@
-.top-of-section-spacing {
-    margin-top: 6em;
+.bottom-padding {
+    padding-bottom: 7em;
 }
+
+.top-padding {
+    padding-top: 7em;
+
+}
+
 
 .card-spacing {
     margin: 1.75em;

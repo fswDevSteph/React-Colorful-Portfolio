@@ -2,20 +2,45 @@
     text-align: center;
     justify-content: left;
     margin-left: 3em;
+
 }
 
 .navbar-custom-color {
-    background-color: var(--turq) !important;
+    background-color: var(--turq);
     color: (var(--white));
+    z-index: 1;
+
 }
 
 .basic-nav-dropdown {
     text-align: center;
     justify-self: right;
     margin-left: 1100%;
+    color: white;
 }
 
 .section-background-turq {
     background-color: var(--turq);
     color: white;
+}
+
+.custom-shape-divider-top-1711342860 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711342860 svg {
+    position: relative;
+    display: block;
+    width: calc(117% + 1.3px);
+    height: 153px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1711342860 .shape-fill {
+    fill: #009AAE;
 }

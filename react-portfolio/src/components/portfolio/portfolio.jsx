@@ -5,10 +5,15 @@ import './portfolio.css'
 function Portfolio() {
   return (
 
-<section className='section-background-turq top-of-section-spacing'>
+<section className='section-background-turq  padding-top padding-bottom  '>
+ 
     <div>
+      
 <Row >
+ 
+   
  <Col md={4}>
+  
     {/*card1 */}
     <Card className='card-spacing' style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
@@ -116,15 +121,17 @@ function Portfolio() {
       </Card.Body>
     </Card>
     </Col>
+    
     </Row>
 
     </div>
-    </section>
     
+    </section>
+   
+   
   );
+ 
 }
-
-
 
 
 export default Portfolio;

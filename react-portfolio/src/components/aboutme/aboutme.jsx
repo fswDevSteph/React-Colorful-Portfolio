@@ -6,7 +6,7 @@ import './aboutme.css'
 
 function Aboutme() {
   return (
-    <section className='about-me top-of-section-spacing'>
+    <section className='about-me  bottom-padding top-padding'>
         
     <Container>
         
@@ -30,8 +30,11 @@ function Aboutme() {
        </Col>
       </Row>
     </Container>
-
+<section>
+  
+</section>
     </section>
+    
   );
 }
 
