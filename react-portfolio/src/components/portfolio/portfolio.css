@@ -2,9 +2,9 @@
     padding-bottom: 5em;
 } */
 
-.top-padding {
-    padding-top: 10em;
-    padding-bottom: 10em;
+section {
+    padding-top: 12em;
+    padding-bottom: 12em;
 }
 
 .relative {
@@ -41,7 +41,8 @@
 
 .section-background-turq {
     background-color: var(--turq);
-    padding: 5em;
+    padding-top: 7em;
+    padding-bottom: 7em;
     /* padding keeps spacing between nav curve and about pic and about text */
     min-height: 100vh;
 
@@ -67,9 +68,15 @@
     fill: #FFFFFF;
 }
 
-.space {
-    margin-top: 5em;
+.top-space {
+    margin-top: 2.5em;
 }
+
+.bottom-space {
+    margin-top: 2.5em;
+}
+
+
 
 .Row {
     display: flex;
