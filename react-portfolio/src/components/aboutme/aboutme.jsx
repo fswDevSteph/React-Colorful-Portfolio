@@ -4,6 +4,7 @@ import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import './aboutme.css'
 import profileImage from './aboutme-img/stephanieperroni.png';
+import meWhiteBack from './aboutme-img/me-white-back.png';
 
 function Aboutme() {
   return (

@@ -16,6 +16,9 @@
     padding-top: 10em;
     padding-bottom: 10em;
     position: relative;
+    background: rgb(248, 87, 172);
+    background: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
+
     /* min-height: 1vh; */
 }
 
