@@ -1,0 +1,55 @@
+.contact {
+    /* margin-top: 1em;
+    margin-bottom: 1em; */
+    padding-top: 10em;
+    padding-bottom: 10em;
+    position: relative;
+    background: rgb(248, 87, 172);
+    background: linear-gradient(90deg, #f857ac 0%, #f56183 35%, #ef8435 100%);
+
+    /* min-height: 1vh; */
+}
+
+
+
+.full-width-container {
+    max-width: 100%;
+}
+
+.custom-shape-divider-top-1711567076 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711567076 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1711567076 .shape-fill {
+    fill: #009AAE;
+}
+
+.contact-form {
+    width: 70%;
+    margin: auto;
+}
+
+.contact-btn {
+    color: white;
+    background-color: var(--turq);
+    border: white
+}
+
+.contact-btn:hover {
+    color: white;
+    background-color: black;
+    border: white;
+
+}

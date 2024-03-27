@@ -21,7 +21,9 @@ section {
     background-color: var(--turq);
     /* padding-top: 7em; padding between top of portfolio section and bottom of about me section */
     padding-bottom: 7em;
+    padding-top: 7em;
     /* padding keeps spacing between nav curve and about pic and about text */
+
     min-height: 65vh;
 
 }
@@ -40,14 +42,15 @@ section {
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
+    color: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
 }
 
 .custom-shape-divider-top-1711386641 .shape-fill {
     fill: rgb(248, 87, 172);
-    background: -moz-linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
+    /* background: -moz-linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
     background: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f857ac", endColorstr="#ef8435", GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f857ac", endColorstr="#ef8435", GradientType=1); */
     /* fill: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%); */
 }
 
@@ -65,4 +68,25 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.custom-shape-divider-top-1711564317 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711564317 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1711564317 .shape-fill {
+    fill: url(#MyGradient)
+        /* linear-gradient(90deg, #f857ac 0%, #f56183 35%, #ef8435 100%); */
 }
