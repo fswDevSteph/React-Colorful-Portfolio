@@ -32,7 +32,7 @@
     color: white;
 }
 
-.custom-shape-divider-top-1711347870 {
+.custom-shape-divider-top-1711511353 {
     position: absolute;
     top: 0;
     left: 0;
@@ -41,15 +41,24 @@
     line-height: 0;
 }
 
-.custom-shape-divider-top-1711347870 svg {
-    position: relative;
-    display: block;
-    width: calc(117% + 1.3px);
-    height: 153px;
-    transform: rotateY(180deg);
+/* blue shape divide */
+.custom-shape-divider-top-1711511784 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
-.custom-shape-divider-top-1711347870 .shape-fill {
+.custom-shape-divider-top-1711511784 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 170px;
+}
+
+.custom-shape-divider-top-1711511784 .shape-fill {
     fill: #009AAE;
 }
 
