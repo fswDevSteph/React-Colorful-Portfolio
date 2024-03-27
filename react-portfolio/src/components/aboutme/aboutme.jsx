@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import './aboutme.css'
+import profileImage from './aboutme-img/stephanieperroni.png';
 
 function Aboutme() {
   return (
@@ -14,7 +15,7 @@ function Aboutme() {
         
         <Col xs={6} md={4}>
           {
-            <Image id="prof-img" alt='image of stephanie perroni' src="https://media.licdn.com/dms/image/D4E03AQFfQP_Ag492sA/profile-displayphoto-shrink_800_800/0/1711241424452?e=1717027200&v=beta&t=2Sn9D45P6zaYUzTwkcsmtjRWSURBbS3Jk8ncjg4m75Q" roundedCircle />
+            <Image id="prof-img" alt='image of stephanie perroni' src={profileImage} roundedCircle />
          }
         </Col>
       
