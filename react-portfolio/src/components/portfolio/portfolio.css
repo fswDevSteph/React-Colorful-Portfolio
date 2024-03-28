@@ -1,12 +1,3 @@
-/* .bottom-padding {
-    padding-bottom: 5em;
-} */
-
-section {
-    /* padding-top: 12em; */
-    /* padding-bottom: 12em; */
-}
-
 .relative {
     position: relative
 }
@@ -14,19 +5,22 @@ section {
 
 
 .card-spacing {
-    margin: 1.75em;
+    margin: 3.5em;
+    width: 70%;
+
 }
 
 .section-background-turq {
     background-color: var(--turq);
-    /* padding-top: 7em; padding between top of portfolio section and bottom of about me section */
-    padding-bottom: 7em;
     padding-top: 7em;
     /* padding keeps spacing between nav curve and about pic and about text */
-
-    min-height: 65vh;
+    padding-bottom: 0;
+    /* padding-top: 7em; padding between top of portfolio section and bottom of about me section */
+    max-height: 33%;
 
 }
+
+
 
 .custom-shape-divider-top-1711386641 {
     position: absolute;
