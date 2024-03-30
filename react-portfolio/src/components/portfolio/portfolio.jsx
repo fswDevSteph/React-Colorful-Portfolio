@@ -5,7 +5,7 @@ import './portfolio.css'
 function Portfolio() {
   return (
 
-<section className='section-background-turq   relative  '>
+<section id="action/3.2" className='section-background-turq   relative  '>
 {/* curves divider  */}
 <div class="custom-shape-divider-top-1711564317">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">

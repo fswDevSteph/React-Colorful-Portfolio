@@ -23,7 +23,7 @@ function Aboutme() {
 
         
        <Col className="about-text">
-        <h2>About </h2>
+        <h2 id="action/3.1">About </h2>
        <p className="about-text">Stephanie Perroni embodies an insatiable thirst for knowledge and innovation. With a rich background encompassing roles as a social media manager, quality assurance analyst, and full-stack software developer specializing in the MERN stack, Stephanie's journey is marked by versatility and expertise.
        <br />
        <br />

@@ -42,7 +42,7 @@ const validateEmail = (email) => { //email
 
   
   return (
-    <section className='contact'>
+    <section id='action/3.3' className='contact'>
         <div className='bottom-space'></div>
      <div class="custom-shape-divider-top-1711567076">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -80,7 +80,7 @@ const validateEmail = (email) => { //email
     </Form>
     <br />
         <a href="../../resume/StephaniePerroni_Resume_April2024.pdf" download="StephaniePerroni_Resume_April2024.pdf">
-      <Button className="contact-btn" type="download">
+      <Button id="action/3.4" className="contact-btn" type="download">
         Download Resume
       </Button>
       </a>
