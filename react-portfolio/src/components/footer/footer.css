@@ -1,0 +1,130 @@
+footer {
+    background-color: var(--turq);
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 5em;
+
+}
+
+.navbar-custom-color {
+    background-color: var(--turq);
+}
+
+.myName {
+    text-align: center;
+    justify-content: left;
+
+
+}
+
+.navbar-custom-color {
+
+    z-index: 1;
+
+}
+
+.relative {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    /* min-height: 20vh; */
+
+}
+
+.basic-nav-dropdown {
+    text-align: center;
+    justify-self: right;
+    margin-left: 1100%;
+    color: white;
+}
+
+.section-background-turq {
+    background-color: var(--turq);
+    color: white;
+}
+
+.custom-shape-divider-bottom-1711831154 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711831154 svg {
+    position: relative;
+    display: block;
+    width: calc(110% + 1.3px);
+    height: 223px;
+}
+
+.custom-shape-divider-bottom-1711831154 .shape-fill {
+    fill: #009AAE;
+}
+
+/* .custom-shape-divider-top-1711511353 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+/* blue shape divide */
+.custom-shape-divider-top-1711511784 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711511784 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 170px;
+}
+
+.custom-shape-divider-top-1711511784 .shape-fill {
+    fill: #009AAE;
+}
+
+*/ .custom-shape-divider-bottom-1711514726 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1711514726 svg {
+    position: relative;
+    display: block;
+    width: calc(138% + 1.3px);
+    height: 170px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1711514726 .shape-fill {
+    fill: #009AAE;
+}
+
+/* .custom-shape-divider-bottom-1711514726 .shape-fill {
+    fill: #F56183;
+} */
+
+
+.menu-dropdown .dropdown-toggle {
+    color: white;
+}
