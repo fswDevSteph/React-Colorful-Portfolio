@@ -8,6 +8,7 @@ function Contact() {
     
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
+  const [message, setMessage] = useState(''); 
   const [showNameError, setShowNameError] = useState(false);
   const [showMessageError, setShowMessageError] = useState(false);
   const [showEmailError, setShowEmailError] = useState(false);
@@ -16,22 +17,30 @@ function Contact() {
     setShowEmailError(!validateEmail(email));
   };
 
-    const handleNameBlur = () => {
+    const handleNameBlur = () => { //name
     setShowNameError(name.trim() === '');
+    if(name.trim() === '') {
     alert("name field must not be empty")
-  };
-    const handleMessageBlur = () => {
-    setShowMessageError(name.trim() === '');
-    alert("message field must not be empty")
+    }
   };
 
-  const validateEmail = (email) => {
+const validateEmail = (email) => { //email
     const re = /\S+@\S+\.\S+/;
     if(!re.test(email)){
         alert("enter valid email")
         return false
     }
   };
+
+    const handleMessageBlur = () => { //message
+    setShowMessageError(message.trim() === '');
+    if(message.trim() === '') {
+    alert("message field must not be empty")
+    }
+    
+  };
+
+  
   return (
     <section className='contact'>
         <div className='bottom-space'></div>
@@ -60,18 +69,21 @@ function Contact() {
       </Form.Group>
       <Form.Group className="mb-3" controlId="formMessage">
         <Form.Label>Message</Form.Label>
-        <Form.Control as="textarea" rows={4} type="text" placeholder="Write a message"             onChange={(e) => setName(e.target.value)}
+        <Form.Control as="textarea" rows={4} type="text" placeholder="Write a message"  onChange={(e) => setMessage(e.target.value)}
             onBlur={handleMessageBlur}
             isInvalid={showMessageError}/>
       </Form.Group>
       <Button className="contact-btn"  type="submit">
         Submit
       </Button>
-      <Button className="contact-btn" type="download">
-        Resume
-      </Button>
+      
     </Form>
-        
+    <br />
+        <a href="../../resume/StephaniePerroni_Resume_April2024.pdf" download="StephaniePerroni_Resume_April2024.pdf">
+      <Button className="contact-btn" type="download">
+        Download Resume
+      </Button>
+      </a>
     </section>
     
   );
