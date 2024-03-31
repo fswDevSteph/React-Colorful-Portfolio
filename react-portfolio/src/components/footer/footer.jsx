@@ -18,20 +18,16 @@ function Footer() {
                     <Navbar.Brand href='#home' className='myName navbar-custom-color'><span className='white-text'>Stephanie Perroni</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls='basic-navbar-nav ' />
                     <Navbar.Collapse id='basic-navbar-nav'>
-                        <Nav className='me-auto navbar-custom-color '>
-                            <Nav.Link href='https://github.com/fswDevSteph' target='_blank' >
-                                <img src={github} />
+                        <Nav className=' navbar-custom-color Footer__Icons'>
+                            <Nav.Link href='https://github.com/fswDevSteph' target='_blank'>
+                                <img src={github} height='50' width='50' />
                             </Nav.Link>
 
-                            <Nav.Link href='https://stackoverflow.com/users/22435767/steph' target='_blank'
-                            >
-                                <img src={stackoverflow} />
+                            <Nav.Link href='https://stackoverflow.com/users/22435767/steph' target='_blank'>
+                                <img src={stackoverflow} height='50' width='50' />
                             </Nav.Link>
-
-
-
                         </Nav>
-                    </Navbar.Collapse >
+                    </Navbar.Collapse>
 
                     <div class='custom-shape-divider-bottom-1711908441'>
                         <svg data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'>
