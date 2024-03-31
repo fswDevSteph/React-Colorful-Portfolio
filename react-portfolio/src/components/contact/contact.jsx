@@ -64,7 +64,7 @@ function Contact() {
             onBlur={() => setShowEmailError(!validateEmail(email))}
             isInvalid={showEmailError} />
           <Form.Text className="text-muted form-field">
-            We'll never share your email with anyone else.
+            I'll never share your email with anyone else.
           </Form.Text>
         </Form.Group>
         <Form.Group className="mb-3" controlId="formMessage">
