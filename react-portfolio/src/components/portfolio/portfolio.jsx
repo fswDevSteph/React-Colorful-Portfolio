@@ -56,14 +56,13 @@ function Portfolio() {
 
           <Col md={4}>
             <Card className='card-spacing' style={{ width: '18rem' }}>
-              <Card.Img variant="top" src="https://youtu.be/3Jckwr77gP0" />
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/9Ki3hUJsm1c" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <Card.Body>
                 <Card.Title>Note Taker</Card.Title>
                 <Card.Text>
-
+                  A minimalist note taking app that allows you to create, clear, save, and delete notes while maintaining saved notes
                 </Card.Text>
               </Card.Body>
-
               <Card.Body>
                 <Card.Link href="https://github.com/fswDevSteph/note-taking-app">GitHub</Card.Link>
                 <Card.Link href="https://note-taking-app-cluy.onrender.com/">Deployed</Card.Link>
@@ -74,20 +73,20 @@ function Portfolio() {
           {/*card2 */}
           <Col md={4}>
             <Card className='card-spacing' style={{ width: '18rem' }}>
-              <Card.Img variant="top" src={Fitness__Tracker} />
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/u-LNHHbOiTI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
               <Card.Body>
                 <Card.Title>Fitness Tracker</Card.Title>
                 <Card.Text>
-                  A Fitness Tracker that allows various log types; cardio and strength training workout details, water intake, and daily steps.
+                  A fitness tracker that can log various types of workouts, track water intake, and daily steps with encouraging messages.
                 </Card.Text>
               </Card.Body>
-
               <Card.Body>
-                <Card.Link href="https://github.com/fswDevSteph/fitness-tracker-mvc">GitHub</Card.Link>
-                <Card.Link href="https://safe-sands-18843-bafb39dce4aa.herokuapp.com/Links">Deployed</Card.Link>
+                <Card.Link href="https://github.com/fswDevSteph/fitness-tracker">GitHub</Card.Link>
+                <Card.Link href="https://fitness-tracker-cluy.onrender.com/">Deployed</Card.Link>
               </Card.Body>
             </Card>
           </Col>
+
           {/*card3 */}
           <Col md={4}>
             <Card className='card-spacing' style={{ width: '18rem' }}>
@@ -95,8 +94,7 @@ function Portfolio() {
               <Card.Body>
                 <Card.Title>Work Day Scheduler</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  A simple work day calendar application that allows a user to save events for each hour of a typical working day (9am–5pm).
                 </Card.Text>
               </Card.Body>
 
@@ -106,6 +104,8 @@ function Portfolio() {
               </Card.Body>
             </Card>
           </Col>
+
+
           {/*card4 */}
           <Col md={4}>
             <Card className='card-spacing' style={{ width: '18rem' }}>
@@ -113,8 +113,7 @@ function Portfolio() {
               <Card.Body>
                 <Card.Title>Weather Dashboard</Card.Title>
                 <Card.Text>
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  A simple weather application that displays the current weather and a 5 day forecast. This application also stores the users prior searches
                 </Card.Text>
               </Card.Body>
 
@@ -147,9 +146,9 @@ function Portfolio() {
 
         </Row>
 
-      </div>
+      </div >
 
-    </section>
+    </section >
 
 
   );
