@@ -79,7 +79,7 @@ function Contact() {
 
       </Form>
       <br />
-      <a href='../../resume/StephaniePerroni_Resume_April2024.pdf' download='StephaniePerroni_Resume_April2024.pdf'>
+      <a href='../../resume/StephaniePerroni_Resume_April2024.pdf' download='https://docs.google.com/document/d/1gVy8wiSLuVXeDax2Md0PvOF_XfZBC5US5GGH6nEie8k/edit?usp=sharing'>
         <Button id='action/3.4' className='contact-btn' type='download'>
           Download Resume
         </Button>
