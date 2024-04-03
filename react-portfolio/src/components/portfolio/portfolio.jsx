@@ -39,10 +39,10 @@ function Portfolio() {
 
             {/*card Play-Date */}
             <Card className='card-spacing' style={{ width: '18rem' }}>
-              <Card.Img variant='top' src={Play__Date} />
-              <Card.Body className="hide">
+              <Card.Img className="img-fluid" variant='top' src={Play__Date} />
+              <Card.Body >
                 <Card.Title>Play Date</Card.Title>
-                <Card.Text>
+                <Card.Text className="hide">
                   Whether it's a last-minute adventure or a planned outing, Play Date makes it easy to discover nearby activities that cater to your family's interests. Get started today.
                 </Card.Text>
               </Card.Body>
@@ -129,7 +129,7 @@ function Portfolio() {
           <Col md={4}>
             <Card className='card-spacing' style={{ width: '18rem' }}>
               <Card.Img variant='top' src={Password__Generator} />
-              <Card.Body>
+              <Card.Body className="hide">
                 <Card.Title>Password Generator</Card.Title>
                 <Card.Text className="hide">
                   Some quick example text to build on the card title and make up the
