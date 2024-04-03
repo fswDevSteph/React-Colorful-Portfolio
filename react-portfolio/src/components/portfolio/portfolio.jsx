@@ -1,7 +1,7 @@
 import { Row, Col, Card } from 'react-bootstrap';
 import './portfolio.css'
 import Play__Date from './images/Play__Date.png'
-import Fitness__Tracker from './images/Fitness__Tracker.png'
+// import Fitness__Tracker from './images/Fitness__Tracker.png'
 import Weather__Dashboard from './images/Weather__Dashboard.png'
 import Work__Day__Scheduler from './images/Work__Day__Scheduler.png'
 import Password__Generator from './images/Password__Generator.png'
@@ -40,7 +40,7 @@ function Portfolio() {
             {/*card Play-Date */}
             <Card className='card-spacing' style={{ width: '18rem' }}>
               <Card.Img variant='top' src={Play__Date} />
-              <Card.Body>
+              <Card.Body className="hide">
                 <Card.Title>Play Date</Card.Title>
                 <Card.Text>
                   Whether it's a last-minute adventure or a planned outing, Play Date makes it easy to discover nearby activities that cater to your family's interests. Get started today.
@@ -59,7 +59,7 @@ function Portfolio() {
               <iframe width='100%' height='315' src='https://www.youtube.com/embed/9Ki3hUJsm1c' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
               <Card.Body>
                 <Card.Title>Note Taker</Card.Title>
-                <Card.Text>
+                <Card.Text className="hide">
                   A minimalist note taking app that allows you to create, clear, save, and delete notes while maintaining saved notes
                 </Card.Text>
               </Card.Body>
@@ -76,7 +76,7 @@ function Portfolio() {
               <iframe width='100%' height='315' src='https://www.youtube.com/embed/u-LNHHbOiTI' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowFullScreen></iframe>
               <Card.Body>
                 <Card.Title>Fitness Tracker</Card.Title>
-                <Card.Text>
+                <Card.Text className="hide">
                   A fitness tracker that can log various types of workouts, track water intake, and daily steps with encouraging messages.
                 </Card.Text>
               </Card.Body>
@@ -93,7 +93,7 @@ function Portfolio() {
               <Card.Img variant='top' src={Work__Day__Scheduler} />
               <Card.Body>
                 <Card.Title>Work Day Scheduler</Card.Title>
-                <Card.Text>
+                <Card.Text className="hide">
                   A simple work day calendar application that allows a user to save events for each hour of a typical working day (9am–5pm).
                 </Card.Text>
               </Card.Body>
@@ -112,7 +112,7 @@ function Portfolio() {
               <Card.Img variant='top' src={Weather__Dashboard} />
               <Card.Body>
                 <Card.Title>Weather Dashboard</Card.Title>
-                <Card.Text>
+                <Card.Text className="hide">
                   A simple weather application that displays the current weather and a 5 day forecast. This application also stores the users prior searches
                 </Card.Text>
               </Card.Body>
@@ -131,7 +131,7 @@ function Portfolio() {
               <Card.Img variant='top' src={Password__Generator} />
               <Card.Body>
                 <Card.Title>Password Generator</Card.Title>
-                <Card.Text>
+                <Card.Text className="hide">
                   Some quick example text to build on the card title and make up the
                   bulk of the card's content.
                 </Card.Text>
