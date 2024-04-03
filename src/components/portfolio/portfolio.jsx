@@ -132,8 +132,7 @@ function Portfolio() {
               <Card.Body className="hide">
                 <Card.Title>Password Generator</Card.Title>
                 <Card.Text className="hide">
-                  Some quick example text to build on the card title and make up the
-                  bulk of the card's content.
+                  A random password generator that allows users to generate a pass word between 8 and 12 characters in length.
                 </Card.Text>
               </Card.Body>
 
