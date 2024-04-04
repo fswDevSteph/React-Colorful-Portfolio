@@ -27,14 +27,6 @@
     background-color: var(--amber)
 }
 
-
-ul li {
-    margin-top: 1.25em;
-    margin-bottom: 1.25em;
-    list-style-type: none;
-    position: relative;
-}
-
 .list-background {
     background-color: var(--white);
     padding: 1.25em;
@@ -64,6 +56,13 @@ ul li {
 
 .custom-shape-divider-top-1711394646 .shape-fill-white {
     fill: #FFFFFF;
+}
+
+ul li {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    list-style-type: none;
+    position: relative;
 }
 
 svg {
