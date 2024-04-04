@@ -1,7 +1,9 @@
 #prof-img {
-    width: 80%;
-    height: 91%;
+    max-width: 80%;
+    height: auto;
 }
+
+
 
 
 .about-text {
