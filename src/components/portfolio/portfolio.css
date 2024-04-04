@@ -2,6 +2,13 @@
     position: relative
 }
 
+/* Hides the text */
+.hide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
 .card-uniform {
     width: 18rem;
     padding: 5em;
@@ -15,9 +22,25 @@
     width: 70%;
 }
 
+/* :hover = "on hover" do the following to ".hide" which is "change to display: block" */
+.card-spacing:hover .hide {
+    display: block;
+    opacity: 1;
+}
+
 .section-background-turq {
     background-color: var(--turq);
     max-height: 33%;
+}
+
+.bottom-space {
+    margin-top: 2.5em;
+}
+
+.Row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 
@@ -40,31 +63,6 @@
 
 .custom-shape-divider-top-1711386641 .shape-fill {
     fill: rgb(248, 87, 172);
-}
-
-
-
-.bottom-space {
-    margin-top: 2.5em;
-}
-
-.hide {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-    /* Hides the text */
-}
-
-/* :hover = "on hover" do the following to ".hide" which is "change to display: block" */
-.card-spacing:hover .hide {
-    display: block;
-    opacity: 1;
-}
-
-.Row {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 .custom-shape-divider-top-1711564317 {
