@@ -129,7 +129,7 @@ function Portfolio() {
           <Col md={4}>
             <Card className='card-spacing' style={{ width: '18rem' }}>
               <Card.Img variant='top' src={Password__Generator} />
-              <Card.Body className="hide">
+              <Card.Body >
                 <Card.Title>Password Generator</Card.Title>
                 <Card.Text className="hide">
                   A random password generator that allows users to generate a pass word between 8 and 12 characters in length.

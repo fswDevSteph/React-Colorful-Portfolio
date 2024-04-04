@@ -40,11 +40,6 @@
 
 .custom-shape-divider-top-1711386641 .shape-fill {
     fill: rgb(248, 87, 172);
-    /* background: -moz-linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
-    background: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f857ac", endColorstr="#ef8435", GradientType=1); */
-    /* fill: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%); */
 }
 
 
@@ -60,11 +55,10 @@
     /* Hides the text */
 }
 
+/* :hover = "on hover" do the following to ".hide" which is "change to display: block" */
 .card-spacing:hover .hide {
     display: block;
     opacity: 1;
-
-    /* :hover = "on hover" do the following to ".hide" which is "change to display: block" */
 }
 
 .Row {
@@ -91,5 +85,4 @@
 
 .custom-shape-divider-top-1711564317 .shape-fill {
     fill: url(#MyGradient)
-        /* linear-gradient(90deg, #f857ac 0%, #f56183 35%, #ef8435 100%); */
 }

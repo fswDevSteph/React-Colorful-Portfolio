@@ -3,9 +3,6 @@
     height: auto;
 }
 
-
-
-
 .about-text {
     text-align: center;
     justify-content: right;
@@ -13,18 +10,12 @@
 }
 
 .about-me {
-    /* margin-top: 1em;
-    margin-bottom: 1em; */
     padding-top: 10em;
     padding-bottom: 10em;
     position: relative;
     background: rgb(248, 87, 172);
     background: linear-gradient(90deg, rgba(248, 87, 172, 1) 0%, rgba(245, 97, 131, 1) 35%, rgba(239, 132, 53, 1) 100%);
-
-    /* min-height: 1vh; */
 }
-
-
 
 .full-width-container {
     max-width: 100%;
@@ -65,7 +56,6 @@ ul li {
     position: relative;
     display: block;
     max-width: 100%;
-    /* width: calc(100% + 1.3px); */
     height: 150vh;
 
 }

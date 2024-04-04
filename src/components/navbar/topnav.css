@@ -1,25 +1,21 @@
 .myName {
     text-align: center;
     justify-content: left;
-    /* margin-left: 3em; */
+
 }
 
 .navbar-custom-color {
 
-    /* min-height: 15vh; */
+
     z-index: 1;
 }
 
-/* {
-    display: flex;
-    align-items: flex-end;
-} */
 
 .relative {
     position: relative;
     margin: 0;
     padding: 0;
-    /* min-height: 20vh; */
+
 
 }
 
@@ -86,10 +82,6 @@
 .custom-shape-divider-bottom-1711514726 .shape-fill {
     fill: #009AAE;
 }
-
-/* .custom-shape-divider-bottom-1711514726 .shape-fill {
-    fill: #F56183;
-} */
 
 
 .menu-dropdown .dropdown-toggle {

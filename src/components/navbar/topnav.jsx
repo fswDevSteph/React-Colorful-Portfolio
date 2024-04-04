@@ -6,13 +6,6 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import './topnav.css'
 
 function TopNav() {
-  // Modal Image Gallery
-  // function onClick(element) {
-  //   document.getElementById("img01").src = element.src;
-  //   document.getElementById("modal01").style.display = "block";
-  //   var captionText = document.getElementById("caption");
-  //   captionText.innerHTML = element.alt;
-  // }
 
   // Change style of navbar on scroll
   window.onscroll = function () {
@@ -45,8 +38,6 @@ function TopNav() {
   return (
 
     // grab bootstrap nav and  add media query for the hamburger menu
-
-
     < section className='navbar-custom-color relative' >
       <div className="w3-top">
         <div className="w3-bar " id="myNavbar">
