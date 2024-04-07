@@ -32,9 +32,9 @@ function Portfolio() {
       </div>
 
       <div>
-        <div className='top-space'></div>
-        <Row>
 
+        <Row>
+          <Row><h2 className='portfolio-title'>Portfolio </h2></Row>
           <Col md={4}>
 
             {/*card Play-Date */}

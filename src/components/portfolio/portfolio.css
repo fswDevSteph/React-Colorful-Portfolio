@@ -9,6 +9,10 @@
     transition: opacity 0.3s ease-in-out;
 }
 
+.portfolio-title {
+    margin-top: 5em;
+}
+
 .card-uniform {
     width: 18rem;
     padding: 5em;
@@ -18,7 +22,7 @@
 
 /* PORTFOLIO CARD SPACING */
 .card-spacing {
-    margin: 10em 3em 1em 3.75em;
+    margin: 5em 3em 1em 3.75em;
     width: 70%;
 }
 
