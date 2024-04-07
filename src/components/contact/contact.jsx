@@ -51,8 +51,11 @@ function Contact() {
           <path d='M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z' class='shape-fill'></path>
         </svg>
       </div>
+
+
       <Form onSubmit={handleSubmit} className='contact-form'>
         <Form.Group className='mb-3 form-field' controlId='formName'>
+
           <Form.Label>Name</Form.Label>
           <Form.Control type='text' placeholder='Name' onChange={(e) => setName(e.target.value)}
             onBlur={handleNameBlur}
@@ -64,12 +67,12 @@ function Contact() {
             onBlur={() => setShowEmailError(!validateEmail(email))}
             isInvalid={showEmailError} />
           <Form.Text className='text-muted form-field'>
-            I'll never share your email with anyone else.
+            I'll never share your email with anyone.
           </Form.Text>
         </Form.Group>
         <Form.Group className='mb-3' controlId='formMessage'>
           <Form.Label>Message</Form.Label>
-          <Form.Control as='textarea' rows={4} type='text' placeholder='Write a message' onChange={(e) => setMessage(e.target.value)}
+          <Form.Control as='textarea' rows={4} type='text' placeholder='I would love to here from you!' onChange={(e) => setMessage(e.target.value)}
             onBlur={handleMessageBlur}
             isInvalid={showMessageError} />
         </Form.Group>
