@@ -44,7 +44,7 @@ function TopNav() {
           <a className="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" title="Toggle Navigation Menu" onClick={() => toggleFunction()}>
             <i className="fa fa-bars" />
           </a>
-          <a href="#home" className="w3-bar-item w3-button w3-hide-small w3-right">HOME</a>
+          {/* <a href="#home" className="w3-bar-item w3-button w3-hide-small w3-right">HOME</a> */}
           <a href="#action/3.1" className="w3-bar-item w3-button w3-hide-small w3-right"><i className="fa fa-user" /> ABOUT</a>
           <a href="#action/3.2" className="w3-bar-item w3-button w3-hide-small w3-right"><i className="fa fa-th" /> PORTFOLIO</a>
           <a href="#action/3.3" className="w3-bar-item w3-button w3-hide-small w3-right"><i className="fa fa-envelope" /> CONTACT</a>

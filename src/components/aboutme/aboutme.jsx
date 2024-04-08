@@ -14,11 +14,7 @@ function Aboutme() {
 
         <Row>
 
-
-
-
-
-          <Col className='about-text'>
+          <Col id="action/3.1" className='about-text'>
 
             <div className='about-container'>
 
@@ -28,7 +24,8 @@ function Aboutme() {
                   <Image id='prof-img' alt='image of stephanie perroni' src={profileImage} roundedCircle />
                 }
               </Col>
-              <h2 id='action/3.1 about-title'>About </h2>
+
+              <h2 >About </h2>
               <p className='about-text'>Stephanie Perroni embodies an insatiable thirst for knowledge and innovation. With a rich background encompassing roles as a social media manager, quality assurance analyst, and a fresh full-stack software development graduate specializing in the MERN stack, Stephanie's journey is marked by versatility and expertise.
                 <br />
                 <br />
